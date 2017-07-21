@@ -67,8 +67,52 @@ Create a div element give it an id of "alias8". Inside this div element, give it
 
 Append this div element to the aliasParent div.*/
 
-
+var newerDiv = document.createElement("div");
+newerDiv.id = "alias8";
+newerDiv.innerHTML = "Old Man Riverwalk";
+aliasParent.appendChild(newerDiv);
 
 //Final Boss
 /*9. Create your own profile.*/
+//var oldImage = getElementsByTagName("img")[8];
+
+
+
+var bossImage = document.createElement("img");
+bossImage.src = "https://static.comicvine.com/uploads/original/10/100757/1951910-yogi_bear_show_02.jpg";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(bossImage);
+
+var bossDiv1 = document.createElement("div");
+bossDiv1.id = "name9";
+bossDiv1.innerHTML = "Kevin";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(bossDiv1);
+
+var bossDiv2 = document.createElement("div");
+bossDiv2.id = "position9";
+bossDiv2.innerHTML = "Student";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(bossDiv2);
+
+var bossDiv3 = document.createElement("div");
+bossDiv3.id = "alias9";
+bossDiv3.innerHTML = "Yogi";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(bossDiv3);
+
+var bossDiv4 = document.createElement("div");
+bossDiv4.id = "bio9";
+bossDiv4.innerHTML = "He does his homework.";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(bossDiv4);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
